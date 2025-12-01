@@ -1,0 +1,85 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Cython debug symbols
+cython_debug/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.wheel/
+.installed.cfg
+*.egg-info/
+*.egg
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+
+# pytest
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.tox/
+*.nox/
+*.coverage
+*.hypothesis/
+
+# mypy
+.mypy_cache/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# pyre type checker
+.pyre/
+
+# VSCode settings
+.vscode/
+
+# JetBrains IDEs (PyCharm, etc.)
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Python-related IDE or editor settings
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python log files
+*.log
+
+# Pycharm
+.idea/
+
+# Local virtual environments
+venv/
+ENV/
+env/
+.venv/

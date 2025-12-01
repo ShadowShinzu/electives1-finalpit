@@ -1,0 +1,18 @@
+{
+  "class_names": [
+    "Overripe",
+    "Ripe",
+    "Unripe"
+  ],
+  "class_mapping": {
+    "0": "Overripe",
+    "1": "Ripe",
+    "2": "Unripe"
+  },
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "accuracy": 0.9734513274336283
+}
