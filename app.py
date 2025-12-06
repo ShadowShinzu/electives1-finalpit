@@ -24,11 +24,24 @@ st.set_page_config(
 OUTPUT_DIR = "output"
 MODEL_PKL_PATH = os.path.join(OUTPUT_DIR, "durian_model.pkl")
 
-# CLASS_INFO_PATH = r"C:\Users\torre\Desktop\FinalPIT_Electives\electives1-finalpit\DSP_NewImages\checkpoints\deployment_model\class_info.json"
-CLASS_INFO_PATH = r"DSP_NewImages\checkpoints\deployment_model\class_info.json"
+# Base directory of the project (file's directory)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# ✅ SAMPLE IMAGE USED FOR AUTO TEST
-SAMPLE_IMAGE_PATH = r"ElectivesSampleImages\Electives1_Sampledata.jpg"
+# CLASS_INFO_PATH (use os.path.join for cross-platform safety)
+CLASS_INFO_PATH = os.path.join(
+    BASE_DIR,
+    "DSP_NewImages",
+    "checkpoints",
+    "deployment_model",
+    "class_info.json",
+)
+
+# ✅ SAMPLE IMAGE USED FOR AUTO TEST (use os.path.join)
+SAMPLE_IMAGE_PATH = os.path.join(
+    BASE_DIR,
+    "ElectivesSampleImages",
+    "Electives1_Sampledata.jpg",
+)
 
 # ✅ SET EXPECTED CLASS HERE
 EXPECTED_CLASS = "Ripe"   # Change to: "Unripe" or "Overripe"
