@@ -24,7 +24,8 @@ st.set_page_config(
 OUTPUT_DIR = "output"
 MODEL_PKL_PATH = os.path.join(OUTPUT_DIR, "durian_model.pkl")
 
-CLASS_INFO_PATH = r"C:\Users\torre\Desktop\FinalPIT_Electives\electives1-finalpit\DSP_NewImages\checkpoints\deployment_model\class_info.json"
+# CLASS_INFO_PATH = r"C:\Users\torre\Desktop\FinalPIT_Electives\electives1-finalpit\DSP_NewImages\checkpoints\deployment_model\class_info.json"
+CLASS_INFO_PATH = r"DSP_NewImages\checkpoints\deployment_model\class_info.json"
 
 # ✅ SAMPLE IMAGE USED FOR AUTO TEST
 SAMPLE_IMAGE_PATH = r"ElectivesSampleImages\Electives1_Sampledata.jpg"
